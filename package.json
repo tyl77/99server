@@ -1,7 +1,14 @@
 {
   "dependencies": {
     "agora-token": "^2.0.3",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.5.0",
     "stripe": "^14.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
